@@ -1,0 +1,152 @@
+body
+  margin-top: 50px
+  font-family: Raleway
+
+#price
+  font-family: Montserrat
+  font-size: 20px
+
+#icon
+  height: 36px
+  width: auto
+  padding-bottom: 28px
+  margin-left: 15px
+
+#logo
+  background-image: url("../assets/logo.svg")
+  background-repeat: no-repeat
+  height: 36px
+  width: 200px
+  padding-bottom: 28px
+
+
+.nav
+  display: flex
+  height: 66px
+
+.icons
+  margin-left: 25px
+
+ul
+  display: flex
+  flex-direction: row
+  padding: 0
+  margin: 0
+  height: 66px
+
+li
+  margin: 0 25px 0 25px
+  list-style: none
+  padding-bottom: 28px
+  display: flex
+  align-items: center
+  border-bottom: 2px solid white
+  &:hover
+    border-bottom: 2px solid #B4A98C
+
+a
+  color: black
+  font-weight: 400
+  text-decoration: none
+  text-transform: uppercase
+  font-size: 14px
+
+.container
+  max-width: 1120px
+  margin: auto auto
+
+.top-belt
+  width: 100%
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: space-between
+  border-bottom: 1px solid #e6e6e6
+
+.bottom-belt
+  width: 100%
+  display: flex
+  justify-content: flex-end
+  position: relative
+  min-height: 66px
+
+  li
+    padding-bottom: 0
+    border-bottom: none
+    &:hover
+      border-bottom: none
+    a
+      &:hover
+        color: #B4A98C
+
+.products
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+.item
+  width: 250px
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin: 25px 15px
+  position: relative
+
+  //img
+    &:hover
+      box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.25)
+
+  .button-allegro
+    z-index: 100
+    position: absolute
+    width: 190px
+    height: 50px
+    // background-color: black
+    border-radius: 25px
+    overflow: hidden
+    top: 40%
+    display: flex
+    align-items: center
+    justify-content: center
+    // opacity: 0.6
+    .button-allegro_bg-color, .button-allegro_bg-img, .button-allegro_content
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+    .button-allegro_bg-color
+      z-index: 102
+      background: rgba(#000, 0.65)
+    .button-allegro_bg-img
+      z-index: 101
+      background-position: center center
+      filter: blur(5px)
+    .button-allegro_content
+      position: relative
+      z-index: 103
+      color: #B4A98C
+      opacity: 1 !important
+      font-size: 14px
+      display: flex
+      align-items: center
+    img
+      width: 11px
+      height: auto
+      margin-left: 10px
+
+
+    a
+      color: #B4A98C
+      opacity: 1 !important
+      font-size: 12px
+.name
+  margin: 30px 0 10px
+  text-transform: uppercase
+  font-size: 14px
+
+.price
+  font-family: Montserrat
+  font-size: 18px
+  font-weight: 700
+  color: #B4A98C

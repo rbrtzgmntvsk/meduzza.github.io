@@ -1,0 +1,23 @@
+mixin single_product(name, image, price, button)
+  .item
+    img(src=image)
+    span.name #{name}
+    span.price #{price}
+    .button-allegro(style="display: none; ") #{button}
+      .button-allegro_bg-color
+      .button-allegro_bg-img(style="background-image: url("+image+");")
+      .button-allegro_content
+        a(href='#') AUKCJA ALLEGRO
+        img(src="./assets/arrow.svg")
+    
+.products
+  +single_product('Katana Long Beauty', './assets/img1.png', '189,00 PLN')
+  +single_product('Katana coś tam', './assets/img2.png', '189,00 PLN')
+  +single_product('Bluzka', './assets/img3.png', '189,00 PLN')
+  +single_product('Coś tam coś tam', './assets/img4.png', '189,00 PLN')
+  +single_product('Katana Long Beauty', './assets/img5.png', '189,00 PLN')
+  +single_product('Katana coś tam', './assets/img6.png', '189,00 PLN')
+  +single_product('Bluzka', './assets/img7.png', '189,00 PLN')
+  +single_product('Coś tam coś tam', './assets/img8.png', '189,00 PLN')
+  
+  .item

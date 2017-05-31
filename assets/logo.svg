@@ -1,0 +1,24 @@
+<svg id="Group_4" data-name="Group 4" xmlns="http://www.w3.org/2000/svg" viewBox="125.812 61.72 200.389 39.253">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        font-size: 24px;
+        font-family: SitkaSubheading, Sitka Subheading;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1">
+    <path id="XMLID_18_" class="cls-1" d="M52.582,27.726l-5.989,5.926-5.926-5.926-6.241,5.8L27.994,27.6l-6.431,5.926L15.7,27.663" transform="translate(112.612 51.454)"/>
+    <path id="XMLID_17_" class="cls-1" d="M15.7,12l5.926-5.989,6.494,5.926,6.3-6.241,6.368,6.368,5.926-5.926L52.582,12" transform="translate(112.612 59.547)"/>
+    <path id="XMLID_16_" class="cls-1" d="M47.872,48.826l-6.241,5.233L35.2,48.7" transform="translate(105.406 43.657)"/>
+  </g>
+  <text id="MEDUZZA.PL" class="cls-2" transform="translate(255.202 89.946)"><tspan x="-70.699" y="0">MEDUZZA.PL</tspan></text>
+</svg>
